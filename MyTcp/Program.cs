@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyTcp
 {
-   namespace T
-    {
-        public class TServer
-        { }
-    }
+   
     class Transport
     {
         public string Name {  get; set; }
