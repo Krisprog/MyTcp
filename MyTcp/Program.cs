@@ -18,6 +18,12 @@ namespace MyTcp
     class Car:Transport { }
 
 
+    class Human
+    {
+        public string Name { get; set; }
+    }
+
+
     internal class Program
     {
         static void Main(string[] args)
