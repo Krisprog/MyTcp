@@ -6,14 +6,16 @@ using System.Threading.Tasks;
 
 namespace MyTcp
 {
-    class Transport
+    class Person
     {
-        public string Name {  get; set; }
-        public int Port { get; set; }
-        public Transport() { }  
-        public Transport(int port) { }
-        public Transport(int port, string name) { }       
-        
+        public int Id { get; set; }
+        public string Name { get; set; }
+
+    }
+    class Teacher:Person
+    {   
+
+    }
     }
 
     internal class Program
