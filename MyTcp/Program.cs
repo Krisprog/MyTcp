@@ -6,17 +6,20 @@ using System.Threading.Tasks;
 
 namespace MyTcp
 {
-    class Person
+   namespace T
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
+        public class TServer
+        { }
+    }
+    class Transport
+    {
+        public string Name {  get; set; }
+        public int Port { get; set; }
+        public Transport() { }  
+        public Transport(int port) { }
+ 
+    }   
 
-    }
-    class Teacher:Person
-    {   
-
-    }
-    }
 
     internal class Program
     {
@@ -28,7 +31,7 @@ namespace MyTcp
             {
                 Console.WriteLine(mas[i]);
             }
-            char[] chars = { 'a', 'b' };
+          
            
         }
     }
