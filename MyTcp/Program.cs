@@ -6,6 +6,13 @@ using System.Threading.Tasks;
 
 namespace MyTcp
 {
+    class Person
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+
+    }
+
     internal class Program
     {
         static void Main(string[] args)
@@ -16,6 +23,9 @@ namespace MyTcp
             {
                 Console.WriteLine(mas[i]);
             }
+
+            Person person = new Person();
+
         }
     }
 }
