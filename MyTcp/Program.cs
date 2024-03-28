@@ -6,6 +6,16 @@ using System.Threading.Tasks;
 
 namespace MyTcp
 {
+    class Transport
+    {
+        public string Name {  get; set; }
+        public int Port { get; set; }
+        public Transport() { }  
+        public Transport(int port) { }
+        public Transport(int port, string name) { }       
+        
+    }
+
     internal class Program
     {
         static void Main(string[] args)
