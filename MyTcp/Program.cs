@@ -12,6 +12,12 @@ namespace MyTcp
         public string Name { get; set; }
 
     }
+    class Teacher:Person
+    {
+       
+
+    }
+
 
     internal class Program
     {
