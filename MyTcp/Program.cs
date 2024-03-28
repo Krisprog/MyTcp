@@ -26,6 +26,8 @@ namespace MyTcp
             {
                 Console.WriteLine(mas[i]);
             }
+            char[] chars = { 'a', 'b' };
+           
         }
     }
 }
